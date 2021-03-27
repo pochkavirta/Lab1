@@ -14,6 +14,11 @@ public class Palindrome {
         }
     }
 
+    /**
+     * метод возвращает перевернутую строку
+     * @param word
+     * @return
+     */
     private static String reverseString(String word) {
         return new StringBuilder(word).reverse().toString();
     }
